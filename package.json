@@ -9,6 +9,8 @@
   "bugs": "https://github.com/reshape/plugin-util/issues",
   "devDependencies": {
     "ava": "^0.19.0",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
     "coveralls": "2.x",
     "nyc": "^10.0.0",
     "reshape": "0.4.2",
@@ -20,7 +22,7 @@
   },
   "homepage": "https://github.com/reshape/plugin-util",
   "license": "MIT",
-  "main": "lib",
+  "main": "dist",
   "repository": "reshape/plugin-util",
   "scripts": {
     "coverage": "nyc ava && nyc report --reporter=html && open ./coverage/index.html",
